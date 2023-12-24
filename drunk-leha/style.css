@@ -23,6 +23,8 @@ a:hover {
 }
 
 body {
+
+margin: 0;
   width: min-contentt;
   display: flex;
   flex-direction: column;
@@ -96,4 +98,27 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+#rules {
+  width: max;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#rules h3 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+
+/* Дополнительные стили для украшения и выделения */
+#rules span {
+  font-weight: bold;
+  color: #008069; /* цвет текста для каждого четного элемента (неси ништяки в аквапарк) */
+
 }
